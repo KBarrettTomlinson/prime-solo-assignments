@@ -1,0 +1,25 @@
+/*[class*="col-"]{
+  background-color: antiquewhite;
+  min-height: 75px;
+  border: 1px solid darkgray;
+}*/
+
+.dark-salmon{
+   background-color: darksalmon;
+}
+.salmon{
+  background-color: salmon;
+}
+
+.light-salmon{
+  background-color: lightsalmon;
+}
+
+.light-coral{
+  background-color: lightcoral;
+}
+
+#header{
+  text-align: center;
+  font-size: 72px;
+}

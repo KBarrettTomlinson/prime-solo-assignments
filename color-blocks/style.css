@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  width:100%;
+}
+
+body{
+  background-color: gainsboro;
+}
+
+header {
+  background-color: slategray;
+  text-align: center;
+  width: 100%;
+}
+
+h1{
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  padding: 40px;
+}
+nav {
+  background-color: lightslategray;
+  text-align: center;
+  width: 100%;
+}
+
+button{
+  float: left;
+  display: block;
+  border: none;
+  opacity: .95;
+  padding: 15px 32px;
+  font-size: 18px;
+  font-family: helvetica;
+  margin: 0 auto;
+  width: 25%;
+}
+
+button:hover{
+  opacity: 1;
+  color: whitesmoke;
+}
+
+button:focus{
+  outline: none;
+}
+
+span{
+  text-align: center;
+  padding: 10px;
+}
+
+footer{
+  background-color: slategray;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.counter-text{
+  font-family: helvetica;
+  font-size: 18px;
+
+
+}
+
+.cube{
+  border-radius: 10px;
+  float: left;
+  height: 100px;
+  margin: 10px;
+  width: 100px;
+}
+
+.cube:hover{
+  opacity: .5;
+}
+
+.red{
+  background-color: crimson;
+}
+
+.blue{
+  background-color: royalblue;
+}
+
+.green{
+  background-color: seagreen;
+}
+
+.yellow{
+  background-color: darkkhaki;
+}
+
+.button-container{
+    display:block;
+    overflow:auto;
+    text-align: center;
+    width: 100%;
+}
+
+#colorCubeContainer{
+  display: block;
+  overflow: auto;
+  width: 100%;
+}
+
+#colorCubeCounter{
+  background-color: lightslategray;
+  display: block;
+  overflow: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#footerText{
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-transform: lowercase;
+  font-size: 18px;
+}
